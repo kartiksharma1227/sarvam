@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mindsketch Tutor</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">Mindsketch <span class="highlight">Tutor</span></a>
+    <nav id="langs" class="langs" aria-label="Language"></nav>
+    <div id="progressChip" class="chip" title="Accuracy · day streak">0% · 🔥0</div>
+  </header>
+
+  <main class="layout">
+    <section class="left">
+      <div class="sketch prompt">
+        <div class="prompt-row">
+          <input id="topic" type="text" maxlength="300" placeholder="What do you want to learn? Type or hold 🎤 and speak…" autocomplete="off" />
+          <button id="topicMic" class="mic" title="Hold to speak">🎤</button>
+          <button id="go" class="btn primary">Generate</button>
+        </div>
+        <div class="suggestions">
+          <button class="pill suggest">Photosynthesis</button>
+          <button class="pill suggest">Newton's 3rd law</button>
+          <button class="pill suggest">How UPI works</button>
+        </div>
+        <p id="hint" class="hint"></p>
+      </div>
+
+      <div id="stage" class="sketch stage hidden">
+        <div class="stage-row"><span id="stageLabel">Starting…</span><span id="stagePct">0%</span></div>
+        <div class="bar"><div id="stageBar"></div></div>
+        <div id="sceneDots" class="dots"></div>
+      </div>
+
+      <div class="player sketch">
+        <video id="video" controls playsinline></video>
+        <div id="videoEmpty" class="video-empty graph-paper">Your whiteboard lesson appears here</div>
+        <button id="doubtMic" class="doubt mic hidden" title="Hold to ask a doubt">🎤 Ask a doubt</button>
+      </div>
+
+      <div id="recentWrap" class="recent hidden">
+        <h3>Ready-made lessons</h3>
+        <div id="recent" class="suggestions"></div>
+      </div>
+    </section>
+
+    <aside class="right">
+      <div class="sketch guru-card">
+        <div id="guru" class="guru idle"></div>
+        <p id="caption" class="caption">Namaste! Pick a language and a topic.</p>
+        <div class="guru-actions">
+          <button id="quizMe" class="btn" disabled>Quiz me</button>
+          <button id="stopTalk" class="btn ghost">🔇 Stop</button>
+        </div>
+      </div>
+
+      <div id="quiz" class="sketch quiz hidden"></div>
+
+      <div class="sketch progress">
+        <h3>My progress</h3>
+        <div id="stats" class="stats"></div>
+        <div id="weak" class="suggestions"></div>
+        <ul id="history" class="history"></ul>
+      </div>
+    </aside>
+  </main>
+
+  <script src="/vendor/hls.light.min.js"></script>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+[
+  {
+    "scene": {
+      "id": "x1",
+      "title": "The Credit Cycle",
+      "narration": "You borrow, you pay it back, your score rises, and better rates let you borrow for less.",
+      "layout": "cycle",
+      "slots": {
+        "nodes": [
+          { "label": "Borrow", "icon_query": "coin", "appear_on": "borrow" },
+          { "label": "Pay back", "icon_query": "check circle", "appear_on": "pay it back" },
+          { "label": "Score rises", "icon_query": "chart", "appear_on": "score rises" },
+          { "label": "Better rates", "icon_query": "piggy bank", "appear_on": "better rates" }
+        ]
+      }
+    },
+    "icons": {
+      "coin": "icons/coin.svg",
+      "check circle": "icons/check-circle.svg",
+      "chart": "icons/chart.svg",
+      "piggy bank": "icons/piggy-bank.svg"
+    },
+    "audio": null,
+    "duration": 8,
+    "cues": [
+      { "target": "title", "start": 0.2 },
+      { "target": "nodes.0", "start": 1.0 },
+      { "target": "nodes.1", "start": 2.4 },
+      { "target": "nodes.2", "start": 3.8 },
+      { "target": "nodes.3", "start": 5.2 }
+    ],
+    "options": { "background": "plain", "aspect": "16:9", "fps": 30, "width": 1920, "height": 1080 }
+  },
+  {
+    "scene": {
+      "id": "x2",
+      "title": "Building History",
+      "narration": "In year one you open your first card. By year two you have a record of on-time payments. In year five a loan is approved, and by year ten your score is excellent.",
+      "layout": "timeline",
+      "slots": {
+        "events": [
+          { "date_label": "Year 1", "text": "Open your first card", "icon_query": "credit card", "appear_on": "year one" },
+          { "date_label": "Year 2", "text": "On-time payments", "icon_query": "calendar", "appear_on": "year two" },
+          { "date_label": "Year 5", "text": "Loan approved", "icon_query": "bank", "appear_on": "year five" },
+          { "date_label": "Year 10", "text": "Excellent score", "icon_query": "shield", "appear_on": "year ten" }
+        ]
+      }
+    },
+    "icons": {
+      "credit card": "icons/credit-card.svg",
+      "calendar": "icons/calendar.svg",
+      "bank": "icons/bank.svg",
+      "shield": "icons/shield.svg"
+    },
+    "audio": null,
+    "duration": 9,
+    "cues": [
+      { "target": "title", "start": 0.2 },
+      { "target": "line", "start": 0.9 },
+      { "target": "events.0", "start": 1.8 },
+      { "target": "events.1", "start": 3.4 },
+      { "target": "events.2", "start": 5.0 },
+      { "target": "events.3", "start": 6.4 }
+    ],
+    "options": { "background": "graph_paper", "aspect": "16:9", "fps": 30, "width": 1920, "height": 1080 }
+  }
+]

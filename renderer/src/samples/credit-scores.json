@@ -1,0 +1,400 @@
+[
+  {
+    "scene": {
+      "id": "s1",
+      "title": "How Credit Scores Work",
+      "narration": "How do credit scores work? Let's find out what this three-digit number really says about you.",
+      "layout": "title_card",
+      "slots": {
+        "heading": "How Credit Scores Work",
+        "subheading": "The three-digit number lenders judge you by",
+        "icon_query": "lightbulb"
+      }
+    },
+    "icons": {
+      "lightbulb": "icons/lightbulb.svg"
+    },
+    "audio": null,
+    "duration": 5,
+    "cues": [
+      {
+        "target": "icon",
+        "start": 0.2
+      },
+      {
+        "target": "title",
+        "start": 0.8
+      },
+      {
+        "target": "subheading",
+        "start": 2.2
+      }
+    ],
+    "options": {
+      "background": "plain",
+      "aspect": "16:9",
+      "fps": 30,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "scene": {
+      "id": "s2",
+      "title": "Same Loan, Different Price",
+      "narration": "Two people ask for the same loan. With a low score, you pay nine percent interest, and you might be denied. With a high score, you pay four percent and get approved fast.",
+      "layout": "comparison",
+      "slots": {
+        "left": {
+          "header": "Low score",
+          "icon_query": "warning",
+          "appear_on": "low score"
+        },
+        "right": {
+          "header": "High score",
+          "icon_query": "check circle",
+          "appear_on": "high score"
+        },
+        "rows": [
+          {
+            "left": {
+              "icon_query": "coin",
+              "value": "9%",
+              "caption": "interest rate",
+              "appear_on": "nine percent"
+            },
+            "right": {
+              "icon_query": "coin",
+              "value": "4%",
+              "caption": "interest rate",
+              "appear_on": "four percent"
+            }
+          },
+          {
+            "left": {
+              "icon_query": "lock",
+              "value": "Denied",
+              "caption": "loan approval",
+              "appear_on": "denied"
+            },
+            "right": {
+              "icon_query": "check circle",
+              "value": "Approved",
+              "caption": "loan approval",
+              "appear_on": "approved"
+            }
+          }
+        ]
+      }
+    },
+    "icons": {
+      "warning": "icons/warning.svg",
+      "check circle": "icons/check-circle.svg",
+      "coin": "icons/coin.svg",
+      "lock": "icons/lock.svg"
+    },
+    "audio": null,
+    "duration": 9,
+    "cues": [
+      {
+        "target": "title",
+        "start": 0.2
+      },
+      {
+        "target": "left",
+        "start": 1.2
+      },
+      {
+        "target": "right",
+        "start": 1.9
+      },
+      {
+        "target": "rows.0.left",
+        "start": 3.0
+      },
+      {
+        "target": "rows.0.right",
+        "start": 5.6
+      },
+      {
+        "target": "rows.1.left",
+        "start": 4.4
+      },
+      {
+        "target": "rows.1.right",
+        "start": 6.8
+      }
+    ],
+    "options": {
+      "background": "plain",
+      "aspect": "16:9",
+      "fps": 30,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "scene": {
+      "id": "s3",
+      "title": "Who Keeps Score?",
+      "narration": "When you borrow, your lenders report every payment to a credit bureau, which turns your history into a score.",
+      "layout": "flow",
+      "slots": {
+        "nodes": [
+          {
+            "label": "You",
+            "icon_query": "person",
+            "appear_on": "you borrow"
+          },
+          {
+            "label": "Lenders",
+            "icon_query": "bank",
+            "appear_on": "lenders"
+          },
+          {
+            "label": "Credit bureau",
+            "icon_query": "document",
+            "appear_on": "credit bureau"
+          }
+        ],
+        "arrow_labels": [
+          "borrow",
+          "report"
+        ]
+      }
+    },
+    "icons": {
+      "person": "icons/person.svg",
+      "bank": "icons/bank.svg",
+      "document": "icons/document.svg"
+    },
+    "audio": null,
+    "duration": 7,
+    "cues": [
+      {
+        "target": "title",
+        "start": 0.2
+      },
+      {
+        "target": "nodes.0",
+        "start": 1.0
+      },
+      {
+        "target": "nodes.1",
+        "start": 2.4
+      },
+      {
+        "target": "nodes.2",
+        "start": 4.0
+      }
+    ],
+    "options": {
+      "background": "plain",
+      "aspect": "16:9",
+      "fps": 30,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "scene": {
+      "id": "s4",
+      "title": "One Number Sums It Up",
+      "narration": "All of that becomes one number. A score of seven twenty is considered good by most lenders.",
+      "layout": "stat",
+      "slots": {
+        "value": "720",
+        "caption": "a good score for most lenders",
+        "icon_query": "chart",
+        "appear_on": "seven twenty"
+      }
+    },
+    "icons": {
+      "chart": "icons/chart.svg"
+    },
+    "audio": null,
+    "duration": 6,
+    "cues": [
+      {
+        "target": "title",
+        "start": 0.2
+      },
+      {
+        "target": "stat",
+        "start": 1.4
+      }
+    ],
+    "options": {
+      "background": "graph_paper",
+      "aspect": "16:9",
+      "fps": 30,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "scene": {
+      "id": "s5",
+      "title": "The Three-Digit Scale",
+      "narration": "Scores run from three hundred to eight fifty. Poor, fair, good, very good, and excellent. At seven twenty, you're in the good band.",
+      "layout": "scale",
+      "slots": {
+        "stat": {
+          "value": "300 – 850",
+          "caption": "FICO score range",
+          "icon_query": "chart",
+          "appear_on": "three hundred"
+        },
+        "bands": [
+          {
+            "label": "Poor",
+            "range": "300–579",
+            "color": "red",
+            "appear_on": "poor"
+          },
+          {
+            "label": "Fair",
+            "range": "580–669",
+            "color": "orange",
+            "appear_on": "fair"
+          },
+          {
+            "label": "Good",
+            "range": "670–739",
+            "color": "yellow",
+            "appear_on": "good"
+          },
+          {
+            "label": "Very good",
+            "range": "740–799",
+            "color": "green",
+            "appear_on": "very good"
+          },
+          {
+            "label": "Excellent",
+            "range": "800–850",
+            "color": "blue",
+            "appear_on": "excellent"
+          }
+        ],
+        "marker_value": 720,
+        "marker_appear_on": "seven twenty"
+      }
+    },
+    "icons": {
+      "chart": "icons/chart.svg"
+    },
+    "audio": null,
+    "duration": 9,
+    "cues": [
+      {
+        "target": "title",
+        "start": 0.2
+      },
+      {
+        "target": "stat",
+        "start": 1.0
+      },
+      {
+        "target": "bands.0",
+        "start": 2.8
+      },
+      {
+        "target": "bands.1",
+        "start": 3.4
+      },
+      {
+        "target": "bands.2",
+        "start": 4.0
+      },
+      {
+        "target": "bands.3",
+        "start": 4.6
+      },
+      {
+        "target": "bands.4",
+        "start": 5.3
+      },
+      {
+        "target": "marker",
+        "start": 6.6
+      }
+    ],
+    "options": {
+      "background": "plain",
+      "aspect": "16:9",
+      "fps": 30,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "scene": {
+      "id": "s6",
+      "title": "Your Credit Checklist",
+      "narration": "To raise your score: pay on time, keep balances low, keep old accounts open, and limit new credit applications.",
+      "layout": "checklist",
+      "slots": {
+        "items": [
+          {
+            "text": "Pay on time",
+            "icon_query": "clock",
+            "appear_on": "pay on time"
+          },
+          {
+            "text": "Keep balances low",
+            "icon_query": "credit card",
+            "appear_on": "balances low"
+          },
+          {
+            "text": "Keep old accounts",
+            "icon_query": "calendar",
+            "appear_on": "old accounts"
+          },
+          {
+            "text": "Limit new credit",
+            "icon_query": "lock",
+            "appear_on": "limit new"
+          }
+        ]
+      }
+    },
+    "icons": {
+      "clock": "icons/clock.svg",
+      "credit card": "icons/credit-card.svg",
+      "calendar": "icons/calendar.svg",
+      "lock": "icons/lock.svg"
+    },
+    "audio": null,
+    "duration": 9,
+    "cues": [
+      {
+        "target": "title",
+        "start": 0.2
+      },
+      {
+        "target": "items.0",
+        "start": 1.2
+      },
+      {
+        "target": "items.1",
+        "start": 2.8
+      },
+      {
+        "target": "items.2",
+        "start": 4.4
+      },
+      {
+        "target": "items.3",
+        "start": 6.0
+      }
+    ],
+    "options": {
+      "background": "plain",
+      "aspect": "16:9",
+      "fps": 30,
+      "width": 1920,
+      "height": 1080
+    }
+  }
+]

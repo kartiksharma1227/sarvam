@@ -1,0 +1,81 @@
+[
+  {
+    "scene": {
+      "id": "n1",
+      "title": "Saving vs Investing",
+      "narration": "Saving keeps your money safe. Investing helps it grow. Both build your future.",
+      "layout": "venn",
+      "slots": {
+        "left": { "label": "Saving", "icon_query": "piggy bank", "appear_on": "saving" },
+        "right": { "label": "Investing", "icon_query": "chart", "appear_on": "investing" },
+        "both": { "label": "Build your future", "appear_on": "both build" }
+      }
+    },
+    "icons": {
+      "piggy bank": "icons/piggy-bank.svg",
+      "chart": "icons/chart.svg"
+    },
+    "audio": null,
+    "duration": 7,
+    "cues": [
+      { "target": "title", "start": 0.2 },
+      { "target": "left", "start": 1.0 },
+      { "target": "right", "start": 2.6 },
+      { "target": "both", "start": 4.2 }
+    ],
+    "options": { "background": "plain", "aspect": "16:9", "fps": 30, "width": 1920, "height": 1080 }
+  },
+  {
+    "scene": {
+      "id": "n2",
+      "title": "Where Late Payments Hurt",
+      "narration": "Payment history counts for thirty five percent. Amounts owed count for thirty. Credit age adds fifteen, and new credit just ten.",
+      "layout": "bar_chart",
+      "slots": {
+        "bars": [
+          { "label": "History", "value": 35, "display": "35%", "appear_on": "payment history" },
+          { "label": "Amounts", "value": 30, "display": "30%", "appear_on": "amounts owed" },
+          { "label": "Age", "value": 15, "display": "15%", "appear_on": "credit age" },
+          { "label": "New credit", "value": 10, "display": "10%", "appear_on": "new credit" }
+        ],
+        "caption": "Share of a typical credit score"
+      }
+    },
+    "icons": {},
+    "audio": null,
+    "duration": 9,
+    "cues": [
+      { "target": "title", "start": 0.2 },
+      { "target": "bars.0", "start": 1.0 },
+      { "target": "bars.1", "start": 2.6 },
+      { "target": "bars.2", "start": 4.2 },
+      { "target": "bars.3", "start": 5.8 }
+    ],
+    "options": { "background": "graph_paper", "aspect": "16:9", "fps": 30, "width": 1920, "height": 1080 }
+  },
+  {
+    "scene": {
+      "id": "n3",
+      "title": "Six Months of Good Habits",
+      "narration": "Before, your score sat at five eighty with missed payments. After six months of on-time bills, it climbed to six ninety.",
+      "layout": "before_after",
+      "slots": {
+        "before": { "header": "Before", "icon_query": "warning", "caption": "580, missed payments", "appear_on": "before" },
+        "after": { "header": "After", "icon_query": "check circle", "caption": "690, bills paid on time", "appear_on": "after six" },
+        "arrow_label": "6 months"
+      }
+    },
+    "icons": {
+      "warning": "icons/warning.svg",
+      "check circle": "icons/check-circle.svg"
+    },
+    "audio": null,
+    "duration": 7,
+    "cues": [
+      { "target": "title", "start": 0.2 },
+      { "target": "before", "start": 1.0 },
+      { "target": "after", "start": 3.4 }
+    ],
+    "options": { "background": "plain", "aspect": "16:9", "fps": 30, "width": 1920, "height": 1080 }
+  }
+]

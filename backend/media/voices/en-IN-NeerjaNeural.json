@@ -1,0 +1,83 @@
+{
+  "key": {
+    "provider": "edge",
+    "voice": "en-IN-NeerjaNeural",
+    "text": "Hi! I'll narrate your explainer, and every drawing appears right as I say it."
+  },
+  "result": {
+    "audio_path": "/Users/kartiksharma/Desktop/Vid_Gen_AI/backend/media/voices/en-IN-NeerjaNeural.mp3",
+    "duration": 6.864,
+    "words": [
+      {
+        "text": "Hi",
+        "start": 0.1,
+        "end": 0.625
+      },
+      {
+        "text": "I'll",
+        "start": 1.4875,
+        "end": 1.725
+      },
+      {
+        "text": "narrate",
+        "start": 1.7375,
+        "end": 2.1375
+      },
+      {
+        "text": "your",
+        "start": 2.15,
+        "end": 2.2875
+      },
+      {
+        "text": "explainer",
+        "start": 2.3,
+        "end": 2.9875
+      },
+      {
+        "text": "and",
+        "start": 3.1375,
+        "end": 3.4625
+      },
+      {
+        "text": "every",
+        "start": 3.475,
+        "end": 3.825
+      },
+      {
+        "text": "drawing",
+        "start": 3.8375,
+        "end": 4.2375
+      },
+      {
+        "text": "appears",
+        "start": 4.25,
+        "end": 4.7125
+      },
+      {
+        "text": "right",
+        "start": 4.725,
+        "end": 5.0625
+      },
+      {
+        "text": "as",
+        "start": 5.075,
+        "end": 5.2375
+      },
+      {
+        "text": "I",
+        "start": 5.25,
+        "end": 5.4
+      },
+      {
+        "text": "say",
+        "start": 5.4125,
+        "end": 5.6875
+      },
+      {
+        "text": "it",
+        "start": 5.7,
+        "end": 5.9875
+      }
+    ]
+  }
+}

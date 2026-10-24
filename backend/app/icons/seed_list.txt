@@ -1,0 +1,116 @@
+# name | what to draw | tags (comma separated). One icon per line; `#` lines are ignored.
+# People
+person | a simple friendly person, head and shoulders | you, user, customer, individual, human
+group-of-people | three simple people standing together | people, team, community, crowd, society
+student | a student with a graduation cap holding a book | learner, pupil, school, education
+doctor | a doctor with a white coat and a stethoscope | physician, medicine, healthcare, nurse
+scientist | a scientist in a lab coat holding a flask | researcher, lab, experiment, science
+worker | a worker with a yellow hard hat | employee, labour, job, construction
+family | a parent and child holding hands | household, parents, children, home
+# Money and finance
+coin | a gold coin | money, cash, payment, price, cost
+banknote | a green paper banknote | money, cash, dollar, bill, currency
+stack-of-money | a stack of green banknotes with a coin | savings, wealth, money, income, salary
+bank | a bank building with columns and a triangular roof | lender, bank, institution, finance
+credit-card | a credit card | card, payment, debt, spending, balance
+piggy-bank | a pink piggy bank with a coin going in | savings, save, budget, money
+wallet | a brown leather wallet with a banknote sticking out | money, spending, personal finance, purse
+shopping-cart | a shopping cart | buying, purchase, consumer, shopping, demand
+price-tag | a price tag with a string | price, cost, sale, value
+receipt | a paper receipt with lines | bill, invoice, purchase, expense
+bitcoin | a gold coin with a bitcoin B symbol | crypto, cryptocurrency, blockchain, digital money
+chart-up | a bar chart with an arrow going up | growth, increase, profit, rise, trend
+chart-down | a bar chart with an arrow going down | decline, decrease, loss, fall, drop
+line-graph | a line graph on axes | data, trend, statistics, history, change over time
+pie-chart | a pie chart with three slices | share, proportion, percentage, breakdown
+calculator | a calculator | math, calculation, numbers, budget, accounting
+scale-balance | a balance scale with two pans | justice, fairness, compare, weigh, law
+handshake | two hands shaking | deal, agreement, trust, partnership, trade
+house | a small house with a red roof | home, property, mortgage, real estate, housing
+car | a small car | vehicle, transport, driving, auto loan
+store | a small shop front with an awning | business, shop, market, retail, company
+factory | a factory with a chimney and smoke | industry, production, manufacturing, company
+# Documents and work
+document | a sheet of paper with lines of text | report, file, contract, record, paperwork
+clipboard-checklist | a clipboard with a checklist | checklist, tasks, plan, requirements, form
+book | an open book | learning, knowledge, reading, education, study
+envelope | a closed letter envelope | mail, email, message, letter, communication
+calendar | a wall calendar page | date, schedule, month, year, deadline
+clock | a round wall clock | time, hour, deadline, wait, duration
+hourglass | an hourglass with sand | time, patience, waiting, countdown
+briefcase | a brown briefcase | job, business, work, career, office
+pencil | a yellow pencil | write, edit, draft, school, notes
+magnifying-glass | a magnifying glass | search, inspect, research, investigate, find
+lightbulb | a glowing lightbulb | idea, insight, tip, innovation, electricity
+target | a target with an arrow in the bullseye | goal, aim, objective, accuracy, focus
+trophy | a gold trophy cup | win, success, award, achievement, prize
+flag | a flag on a pole | milestone, goal, country, finish
+megaphone | a megaphone | announce, marketing, voice, advertise
+speech-bubble | an empty speech bubble | talk, conversation, message, communication, opinion
+# Symbols
+check-circle | a green circle with a white check mark | yes, correct, approved, success, done
+cross-circle | a red circle with a white X | no, wrong, rejected, error, fail
+warning | a yellow warning triangle with an exclamation mark | danger, risk, alert, caution, problem
+question-mark | a big question mark | question, unknown, confusion, why
+heart | a red heart | love, health, care, like, favourite
+star | a yellow star | rating, quality, favourite, excellent
+lock | a closed padlock | security, safe, privacy, locked, protection
+key | a gold key | access, unlock, solution, password
+shield | a shield with a check mark | protection, defense, security, safety, immune
+arrow-right | a thick arrow pointing right | next, direction, forward, move
+recycle | three green arrows in a recycling loop | recycle, reuse, cycle, sustainability
+gear | a grey gear | settings, process, mechanism, machine, engineering
+puzzle-piece | a puzzle piece | problem solving, fit, part, missing piece
+# Technology
+laptop | an open laptop | computer, technology, work, software
+smartphone | a smartphone | phone, mobile, app, device
+server | a server rack with blinking lights | data center, cloud computing, hosting, backend
+database | a database cylinder | data, storage, records, memory
+cloud | a fluffy white cloud | cloud, weather, cloud computing, sky
+wifi | a wifi signal symbol | internet, wireless, network, connection
+network | three connected nodes forming a network | network, connections, links, graph, internet
+robot | a friendly robot | AI, automation, machine, artificial intelligence
+chip | a computer chip | processor, CPU, hardware, semiconductor
+satellite | a satellite with solar panels | space, communication, GPS, orbit
+battery | a battery | energy, power, charge, storage
+plug | an electric plug | electricity, power, connect, energy
+# Science and nature
+globe | a globe of the Earth | world, earth, planet, global, international
+sun | a yellow sun with rays | sun, heat, light, energy, day, solar
+moon | a crescent moon | night, moon, space, sleep
+water-droplet | a blue water droplet | water, liquid, drop, rain
+rain-cloud | a grey cloud with falling raindrops | rain, precipitation, weather, storm
+snowflake | a blue snowflake | cold, snow, ice, winter, freeze
+fire | an orange flame | fire, heat, burn, combustion, energy
+lightning | a yellow lightning bolt | electricity, storm, energy, power, fast
+mountain | a mountain with a snowy peak | mountain, land, nature, climb, challenge
+ocean-wave | a blue ocean wave | sea, ocean, water, wave
+tree | a green leafy tree | tree, forest, nature, plant, environment
+plant-sprout | a small green sprout in soil | growth, plant, seed, start, nature
+leaf | a green leaf | plant, nature, photosynthesis, eco
+flower | a flower with petals | plant, bloom, pollination, nature
+atom | an atom with orbiting electrons | atom, physics, chemistry, particle, science
+molecule | a molecule of connected balls | molecule, chemistry, compound, bond
+flask | a lab flask with green liquid | chemistry, experiment, lab, science
+microscope | a microscope | biology, research, lab, small, cell
+dna | a DNA double helix | DNA, genes, genetics, biology, heredity
+cell | a round biological cell with a nucleus | cell, biology, organism, life
+virus | a virus particle with spikes | virus, germ, infection, disease, pathogen
+bacteria | a rod-shaped bacterium | bacteria, germ, microbe, infection
+brain | a pink brain | brain, mind, thinking, memory, intelligence
+magnet | a red horseshoe magnet | magnet, attraction, force, physics
+rocket | a rocket taking off | launch, space, fast, start, startup
+planet | a ringed planet | planet, space, astronomy, solar system
+# Health
+pill | a medicine capsule | medicine, drug, treatment, pharmacy
+syringe | a vaccine syringe | vaccine, injection, shot, immunization
+hospital | a hospital building with a red cross | hospital, healthcare, emergency, clinic
+apple | a red apple | food, health, nutrition, fruit, teacher
+# Everyday
+bread | a loaf of bread | food, wheat, groceries, staple
+truck | a delivery truck | shipping, transport, logistics, delivery, supply
+ship | a cargo ship | trade, shipping, import, export, ocean
+airplane | an airplane | travel, flight, abroad, transport
+road | a road curving into the distance | path, journey, route, road
+map-pin | a red map location pin | location, place, map, destination
+school | a school building with a bell | school, education, learning, class
